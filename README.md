@@ -38,6 +38,16 @@ Click the **Insert table** button in the Markdown editor toolbar. A starter tabl
 |  |  |
 ```
 
+### Rendering
+
+Tables are rendered as <table> elements inside the Markdown editor \(CodeMirror 6\)
+
+<p align="center">
+  <img src="images/1.png" width="45%" alt="Markdown table source"/>
+  &nbsp;&nbsp;&rarr;&nbsp;&nbsp;
+  <img src="images/2.png" width="45%" alt="Rendered table"/>
+</p>
+
 ### Edit a cell
 
 Click any cell in a rendered table — the table switches to raw Markdown and the cursor is placed inside the cell you clicked. Move the cursor out of the table and it renders again automatically.
@@ -52,6 +62,10 @@ Hover over a rendered table:
 ### Row / column operations
 
 **Right-click** any cell to open the icon toolbar:
+
+<p align="center">
+  <img src="images/3.png" width="50%" alt="Context menu toolbar"/>
+</p>
 
 | Icon group | Actions |
 | --- | --- |
